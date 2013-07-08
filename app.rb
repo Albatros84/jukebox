@@ -14,6 +14,8 @@ set :show_exceptions, false
 # for a full list of permissions
 FACEBOOK_SCOPE = 'user_likes,user_photos'
 
+Mongoid.load!("./mongoid.yml") #, :production
+
 ENV["FACEBOOK_APP_ID"]='492992867442184'
 ENV["FACEBOOK_SECRET"]='d3c3e011aad894802e4371a52a60c08f'
 
