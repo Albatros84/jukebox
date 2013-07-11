@@ -1,5 +1,7 @@
 source :gemcutter
 
+ruby "2.0.0"
+
 gem "sinatra"
 gem "koala"
 gem "json", "1.5.5"
